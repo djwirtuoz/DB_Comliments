@@ -39,7 +39,7 @@ namespace DB_Comliments
                 System.Threading.Thread.Sleep(1500);
             }
 
-            string path = "D:\\compl.txt";
+            string path = "compl.txt";
             StreamWriter file = new StreamWriter(path);
 
             for (int j = 0; j < mass_compl.Count; j++)
